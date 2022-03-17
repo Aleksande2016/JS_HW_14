@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.app {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+/* https://www.canva.com/ru_ru/obuchenie/100-cvetovyx-sochetnij/ */
+
+.header {
+    background-color: #006C84;
+}
+
+.header__logo img {
+    width: 150px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__nav__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.header__nav__items a,
+.header .container a,
+.catalog__item__title a {
+    text-decoration: none;
+    color: #FFCCBB;
+}
+
+.header__nav__item {
+    margin: 0 20px;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.main .container {
+    background: url(../images/telefon1.jpg) 50%/cover no-repeat;
+    height: 100%;
+}
+
+.main .container h1,
+.main .container p {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main .container h1 {
+    padding-top: 70px;
+}
+
+.main .container p {
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.catalog__items {
+    background-color: #6EB5C0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.catalog__item {
+    background-color: #E2E8E4;
+    width: 350px;
+    height: 250px;
+    padding: 30px 0;
+    margin: 5px;
+}
+
+.catalog__item__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.catalog__item__image img {
+    width: 100px;
+    height: 100px;
+}
+
+.catalog__item {
+    text-align: center;
+}
+
+.catalog__item__title a {
+    color: #006C84;
+}
+
+.catalog__item__price {
+    margin: 10px 0;
+}
+
+.cart .cart__wrapper p {
+    background-color: #006C84;
+    color: #E2E8E4;
+}
+
+.footer {
+    background-color: #006C84;
+    color: white;
+    padding: 30px 0;
+}
+
